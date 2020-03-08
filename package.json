@@ -1,0 +1,21 @@
+{
+  "name": "teckro-test",
+  "version": "1.0.0",
+  "description": "QA Engineer Tech Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd tests && mocha *.js",
+    "run": "cd ui_tests && protractor conf.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Arunkumar Aousula",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.0",
+    "protractor": "^5.4.3",
+    "supertest": "^4.0.2"
+  }
+}
